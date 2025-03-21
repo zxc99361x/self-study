@@ -27,3 +27,10 @@ empp=np.empty_like(grr)#複製一個隨機分配n*n數值的陣列
 print(empp) """
 """ ful=np.full((4,4),'*')
 print(ful)#生成一個n*n指定數值或字串的陣列 """
+""" hrr=np.array([[1,2],[3,4]])
+full=np.full_like(hrr,5)#複製一個n*n陣列填入指定數值
+print(full) """
+""" irr=[[0,1,2],[5,4,3]]
+print(np.repeat(irr,4))#將指定陣列重複n次後印出 """
+""" jrr=[[5,4,3],[0,1,2]]
+print(np.repeat(jrr,3,axis=1))#將指定陣列重複n次並建立行 """
