@@ -34,3 +34,6 @@ print(full) """
 print(np.repeat(irr,4))#將指定陣列重複n次後印出 """
 """ jrr=[[5,4,3],[0,1,2]]
 print(np.repeat(jrr,3,axis=1))#將指定陣列重複n次並建立行 """
+identity_matrix=np.eye(3)
+print(identity_matrix)
+
