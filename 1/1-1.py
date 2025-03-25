@@ -34,6 +34,12 @@ print(full) """
 print(np.repeat(irr,4))#將指定陣列重複n次後印出 """
 """ jrr=[[5,4,3],[0,1,2]]
 print(np.repeat(jrr,3,axis=1))#將指定陣列重複n次並建立行 """
-identity_matrix=np.eye(3)
-print(identity_matrix)
+""" identity_matrix=np.eye(3)
+print(identity_matrix)#將n行數陣列的對角線印出1 """
+""" id_mat=np.eye(5,k=1)
+print(id_mat)#將n行陣列印出且起始點為i """
 
+ide_mat=np.identity(5)
+ide_mat2=np.eye(5)
+print(ide_mat)
+print(ide_mat2)
