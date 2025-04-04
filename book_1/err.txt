@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "c:\30\Traceback.py", line 11, in <module>
+    CheckSpeed(speed)
+    ~~~~~~~~~~^^^^^^^
+  File "c:\30\Traceback.py", line 5, in CheckSpeed
+    raise Exception("�t�פӺC�F")
+Exception: �t�פӺC�F
+Traceback (most recent call last):
+  File "c:\30\Traceback.py", line 11, in <module>
+    CheckSpeed(speed)
+    ~~~~~~~~~~^^^^^^^
+  File "c:\30\Traceback.py", line 7, in CheckSpeed
+    raise Exception("�t�פӧ֤F")
+Exception: �t�פӧ֤F
+Traceback (most recent call last):
+  File "c:\30\Traceback.py", line 11, in <module>
+    CheckSpeed(speed)
+    ~~~~~~~~~~^^^^^^^
+  File "c:\30\Traceback.py", line 5, in CheckSpeed
+    raise Exception("速度太慢了")
+Exception: 速度太慢了
+Traceback (most recent call last):
+  File "c:\30\Traceback.py", line 11, in <module>
+    CheckSpeed(speed)
+    ~~~~~~~~~~^^^^^^^
+  File "c:\30\Traceback.py", line 7, in CheckSpeed
+    raise Exception("速度太快了")
+Exception: 速度太快了

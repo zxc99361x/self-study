@@ -10,7 +10,7 @@ for speed in (60,100,150):
     try:
         CheckSpeed(speed)
     except Exception as e:
-        with open("err.txt","a") as f:
+        with open("err.txt","a",encoding="UTF-8") as f:
             f.write(traceback.format_exc())
             print("錯誤資訊已寫入")
     else:
