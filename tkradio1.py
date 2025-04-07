@@ -1,0 +1,20 @@
+def choose():
+    msg.set("你最喜歡的球類運動: "+choice.get())
+
+import tkinter as tk 
+win=tk.Tk()
+choice=tk.StringVar()
+msg=tk.StringVar()
+label=tk.Label(win,text="請選擇喜歡的球類運動:")
+label.pack()
+ite1=tk.Radiobutton(win,text="足球",value="足球",variable=choice,command=choose)
+ite1.pack()
+ite2=tk.Radiobutton(win,text="籃球",value="籃球",variable=choice,command=choose)
+ite2.pack()
+ite3=tk.Radiobutton(win,text="棒球",value="棒球",variable=choice,command=choose)
+ite3.pack()
+lbmsg=tk.Label(win,fg="blue",textvariable=msg)
+lbmsg.pack()
+ite1.select()
+choose()
+win.mainloop()
