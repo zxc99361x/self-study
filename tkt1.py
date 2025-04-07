@@ -1,0 +1,11 @@
+import tkinter as tk 
+win=tk.Tk()
+text=tk.Text(win)
+text.insert(tk.INSERT,"tk是ui介面\n")
+text.insert(tk.INSERT,"功能陽春\n")
+text.insert(tk.INSERT,"但足夠一般使用\n")
+text.insert(tk.INSERT,"內含於python中\n")
+text.insert(tk.END,"不須另外安裝\n")
+text.pack()
+text.config(state=tk.DISABLED)
+win.mainloop()
